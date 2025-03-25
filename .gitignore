@@ -1,0 +1,104 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android Build Artifacts
+*.apk
+*.aab
+*.aar
+*.dex
+*.so
+*.o
+*.obj
+*.jar
+*.class
+*.keystore
+
+# Gradle Build Artifacts
+android/app/build/
+android/.gradle/
+android/app/.gradle/
+android/app/cxx/
+android/app/.cxx/
+android/app/.externalNativeBuild/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# CMake / Ninja Build Files
+**/CMakeCache.txt
+**/CMakeFiles/
+**/CMakeLists.txt.user
+**/cmake_install.cmake
+**/CMakeCCompiler.cmake
+**/CMakeCXXCompiler.cmake
+**/CMakeCCompilerId.*
+**/CMakeCXXCompilerId.*
+**/CMakeSystem.cmake
+**/rules.ninja
+**/build.ninja
+**/TargetDirectories.txt
+**/symbol_folder_index.txt
+**/codemodel-*
+**/directory-*
+
+# Prefetch Cache
+android/app/.cxx/Debug/
+android/app/.cxx/Release/
+android/app/cxx/Debug/
+android/app/cxx/Release/
+android/app/cxx/cache-*
+android/app/cxx/prefab_config.json
+
+# IDE and Editor-Specific Files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated JSON Files
+**/android_gradle_build.json
+**/android_gradle_build_mini.json
